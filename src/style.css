@@ -1,0 +1,22 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.table {
+  color: red;
+  border: solid 1px blue;
+}
+
+.row {
+  border: solid 1px green;
+  padding: 5px;
+  background-color: lightgrey;
+}
+
+.button {
+  border: 1px solid yellow;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 20%;
+}
