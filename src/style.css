@@ -4,19 +4,19 @@ p {
 }
 
 .table {
-  color: red;
-  border: solid 1px blue;
+  color: rgb(66, 63, 66);
 }
 
 .row {
   border: solid 1px green;
   padding: 5px;
-  background-color: lightgrey;
+  background-color: rgb(240, 238, 238);
 }
 
 .button {
-  border: 1px solid yellow;
-  background-color: orange;
-  padding: 5px;
+  border: 1px solid black;
+  background-color: rgb(255, 199, 78);
+  padding: 10px;
   border-radius: 20%;
+  color: blue;
 }

@@ -10,7 +10,7 @@ export default function Table(props) {
         <tr>
           <th className={'row'}>{tableHeader1}</th>
           <th className={'row'}>{tableHeader2}</th>
-          <th>Delete</th>
+          <th className={'row'}>Delete</th>
         </tr>
       </thead>
     );
@@ -22,7 +22,7 @@ export default function Table(props) {
         <tr key={index}>
           <td className={'row'}>{row.name}</td>
           <td className={'row'}>{row.type}</td>
-          <td>
+          <td className={'row'}>
             <Button clickAction={() => onRemove(index)} />
           </td>
         </tr>
