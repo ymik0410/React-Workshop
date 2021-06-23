@@ -23,14 +23,15 @@ export default function FormAddPet({
       </div>
       <br />
       <label htmlFor="inputValueType">Pet Type:</label>
-    <input
-      id="inputValueType"
-      type="text"
-      onChange={event => setInputValueType(event.target.value)}
-      value={inputValueType}
-      placeholder="Add a pet type"
-    />
-    <Button clickAction={() => handleAdd()} />
+      <input
+        id="inputValueType"
+        type="text"
+        onChange={event => setInputValueType(event.target.value)}
+        value={inputValueType}
+        placeholder="Add a pet type"
+      />
+      <br />
+      <Button clickAction={() => handleAdd()} />
     </div>
   );
 }
